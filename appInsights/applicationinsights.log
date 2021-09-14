@@ -1,0 +1,82 @@
+2021-09-10 15:12:22.636-03 ERROR c.m.applicationinsights.agent - 
+*************************
+ApplicationInsights Java Agent 3.1.1 failed to start
+*************************
+Description:
+No connection string or instrumentation key provided
+
+Action:
+Please provide connection string or instrumentation key.
+
+2021-09-10 15:16:33.179-03 ERROR c.m.applicationinsights.agent - 
+*************************
+ApplicationInsights Java Agent 3.1.1 failed to start
+*************************
+Description:
+No connection string or instrumentation key provided
+
+Action:
+Please provide connection string or instrumentation key.
+
+2021-09-10 15:21:28.531-03 ERROR c.m.applicationinsights.agent - 
+*************************
+ApplicationInsights Java Agent 3.1.1 failed to start
+*************************
+Description:
+No connection string or instrumentation key provided
+
+Action:
+Please provide connection string or instrumentation key.
+
+2021-09-10 15:22:13.292-03 ERROR c.m.applicationinsights.agent - 
+*************************
+ApplicationInsights Java Agent 3.1.1 failed to start
+*************************
+Description:
+No connection string or instrumentation key provided
+
+Action:
+Please provide connection string or instrumentation key.
+
+2021-09-10 15:23:32.457-03 ERROR c.m.applicationinsights.agent - 
+*************************
+ApplicationInsights Java Agent 3.1.1 failed to start
+*************************
+Description:
+No connection string or instrumentation key provided
+
+Action:
+Please provide connection string or instrumentation key.
+
+2021-09-10 15:23:56.080-03 ERROR c.m.applicationinsights.agent - 
+*************************
+ApplicationInsights Java Agent 3.1.1 failed to start
+*************************
+Description:
+No connection string or instrumentation key provided
+
+Action:
+Please provide connection string or instrumentation key.
+
+2021-09-10 15:24:48.742-03 ERROR c.m.applicationinsights.agent - 
+*************************
+ApplicationInsights Java Agent 3.1.1 failed to start
+*************************
+Description:
+No connection string or instrumentation key provided
+
+Action:
+Please provide connection string or instrumentation key.
+
+2021-09-10 15:27:03.712-03 ERROR c.m.applicationinsights.agent - 
+*************************
+ApplicationInsights Java Agent 3.1.1 failed to start
+*************************
+Description:
+No connection string or instrumentation key provided
+
+Action:
+Please provide connection string or instrumentation key.
+
+2021-09-13 21:32:43.320-03 INFO  c.m.applicationinsights.agent - ApplicationInsights Java Agent 3.1.1 started successfully
+2021-09-13 21:39:51.687-03 INFO  c.m.applicationinsights.agent - ApplicationInsights Java Agent 3.1.1 started successfully
