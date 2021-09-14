@@ -1,24 +1,27 @@
 package com.azureinsights;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import com.microsoft.applicationinsights.TelemetryClient;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
+import java.util.HashMap;
+import java.util.Map;
 
 @Path("/logging")
 public class LoggingResource {
-
-    Logger logger = LoggerFactory.getLogger(LoggingResource.class);
+    static final TelemetryClient telemetryClient = new TelemetryClient();
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)
-    public String index() {
-        logger.warn("This is a WARN message.");
-        logger.error("This is an ERROR message.");
+    public void index() {
+        Map<String, String> properties = new HashMap<>();
+        properties.put("properties", "PROPERTIES OF PROPERTIES");
 
-        return "Welcome to Quarkus Logging! Check the console to see the log messages.";
+        Map<String, Double> metrics = new HashMap<>();
+        metrics.put("metrics", 10.0);
+
+        telemetryClient.trackEvent("telemetryClient trackEvent test", properties, metrics);
     }
 }
